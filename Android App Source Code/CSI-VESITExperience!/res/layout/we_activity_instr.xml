@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".InstrActivity" >
+
+    <TextView
+        android:id="@+id/txtViewInstr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/BtnStartQs"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:text="@string/instr" />
+
+    <Button
+        android:id="@+id/btnGetQsFromServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnStartQs"
+        android:layout_alignLeft="@+id/BtnStartQs"
+        android:layout_alignRight="@+id/BtnStartQs"
+        android:layout_marginTop="34dp"
+        android:enabled="false"
+        android:text="Load Questions" />
+
+    <Button
+        android:id="@+id/BtnStartQs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewInstr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:enabled="false"
+        android:text="Start" />
+
+</RelativeLayout>

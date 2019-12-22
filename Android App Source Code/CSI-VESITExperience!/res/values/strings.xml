@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSI-VESIT\nExperience!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_title_bar">TitleBar</string>
+    <string name="title_activity_event_disp">EventDispActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_foto_gallery">Photo Gallery!</string>
+    <string name="SETechCredits">App brought to you by CSI-VESIT Tech Team!\nApp Developers(SE):\n\n1. Ritesh Talreja(D7A)\n2. Rishabh Rathore(D7B)\n3. Abhishek Dhameja(D7a)\n4. Sankalp Devasthali</string>
+    <string name="TETechCredits">App Developers(TE):\n\n1. Nishant Vijayvergiya\n2.Rajat Burmi\n3.Jeetu Raisinghani</string>
+
+    <!-- Wireless Elims -->
+    <string name="title_activity_submit_result">Submit Result</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="title_activity_instr">Instructions</string>
+    <string name="instr">-> Each MCQ has been alloted a exact number of time out to answer in seconds\n-> NO NAVIGATION is provided between Qs for a specific reason</string>
+    <string name="appCredits">App brought to you by CSI-VESIT Tech Team!\nApp Developers:\n\n1. Ritesh Talreja(D12A)\n\n2. Rahul Ravindran(D12B)\n\n3. Rohan Tondulkar(D12B)\n\n4. Sankalp Devasthali(D11)</string>
+    <string name="websiteCredits">Website Developers:\n\n1. SayanDas Karmakar\n\n2. Omesh Pathai(D12A)</string>
+
+    <string-array name="Classes">
+        <item>D6</item>
+        <!-- len("D6_TEAM_A") => 9 -->
+        <item>D7A</item>
+        <!-- len("D7A_TEAM_A") => 10 -->
+        <item>D7B</item>
+        <!-- len("D7B_TEAM_A") => 10 -->
+        <item>D7C</item>
+        <!-- len("D7C_TEAM_A") => 10 -->
+        <item>D8</item>
+        <!-- len("D8_TEAM_A") => 9 -->
+        <item>D9</item>
+        <!-- len("D9_TEAM_A") => 9 -->
+        <item>D10</item>
+        <!-- len("D10_TEAM_A") => 10 -->
+        <item>D11</item>
+        <!-- len("D11_TEAM_A") => 10 -->
+        <item>D12A</item>
+        <!-- len("D12A_TEAM_A") => 11 -->
+        <item>D12B</item>
+        <!-- len("D12B_TEAM_A") => 11 -->
+        <item>D13</item>
+        <!-- len("D13_TEAM_A") => 10 -->
+        <item>D14</item>
+        <!-- len("D14_TEAM_A") => 10 -->
+        <item>D15</item>
+        <!-- len("D15_TEAM_A") => 10 -->
+    </string-array>
+    <!-- Wireless Elims -->
+
+    <string-array name="CodeBreaker">
+        <item>Code Breaker!</item>
+        <item>Do Codes, Ciphers and Anagrams set your mind ablaze with innate enthusiasm to crack them and arrive at the solution? This event is precisely the one you should be looking out for. All you need to be armed with is basic common sense and logic! All that grey matter accounts for. With a plethora of bemusing codes ciphers in store, the participating teams battle it out at ground Zero to prove their mettle. And viola!The event moves on to unravel the ultimate code breaker</item>
+        <item>Winners are: </item>
+        <item>1.\tKaran M (D14)\n\tMitesh O(D14)\n\tMohit K(D14)\n2.\tAishwarya N(D11)\n\tReshma R (D11)\n\tSteffi D(D11)\n3.\tHiral S(D12)\n\tPooja D(D12)\n\tSamyukta I(D12)</item>
+    </string-array>
+    <string-array name="LANGaming">
+        <item>LAN Gaming!</item>
+        <item>It is one of the hugely attended events of C.S.I. Apart from the ostensibly popular games like COUNTER STRIKE and FIFA the event also houses NFS and ROADRASH on a lighter side. All in all it is a total fun ?based, high-energy and competitive event of the society.</item>
+        <item>The Ultimate Gamers are: </item>
+        <item>NFS:\n\t1.\tTanuj G(D19)\n\t2.\tSagar B(D6)\n\nRoadRash:\n\t1.\tNikita S(D7A)\n\t2.\tMargie K(D6)\n\nCounter Strike:\n\t1.\tAnuj A(D19)\n\t\tKaran S(D19)\n\t\tTanuj G(D19)\n\t\tSambhav J(D19)\n\t2.\tAmey P(D7B)\n\t\tAnshul D(D7B)\n\t\tJaved S(D7B)\n\t\tYash T(D7B)\n\nFIFA Individual:\n\t1.\tShivsubramani S(D11)\n\t2.\tSriram V(D13)\n\nFIFA Team:\n\t1.\tAnanth R(D13)\n\t\tSriram V(D13)\n\t2.\tGaurav K(D15)\n\t\tVishesh S(D15)</item>
+    </string-array>
+    <string-array name="CompONect">
+        <item>Comp-O-Nect!</item>
+        <item>A fantastic opportunity to assemble the computer configuration of their dreams, through its event Comp-O-Nect! Answer questions, earn virtual money and buy components to assemble a PC. The configuration which is most efficient wins the game!.</item>
+        <item>Geeky PC Assemblers are: </item>
+        <item>1.\tMohit M(D15)\n\tPrathamesh C(D15)\n\tVishal A(D15)\n2.\tAmogh W(D14)\n\tKaran M(D14)\n\tVishal K(D12)\n3.\tAmit B(D12)\n\tJayesh A(D12)\n\tKetan K(D12)</item>
+    </string-array>
+    <string-array name="HiddenCipher">
+        <item>Hidden Cipher!</item>
+        <item>A fantastic opportunity to get your brains rolling and your hand dirty in cracking ciphers!</item>
+        <item>Winners are: </item>
+        <item>1.\tDhanesh P(D6)\n\tMihir P(D6)\n\tVignesh S(D6)\n2.\tLakhan A(D9)\n\tSanjay B(D9)\n\tVivek G(D9)\n3.\tAnagha K(D10)\n\tNeha P(D10)\n\tSailee D(D10)\n</item>
+    </string-array>
+    <string-array name="ArticleWriting">
+        <item>Article Writing</item>
+        <item>The official Article writing contest of the CSI. It is an event looked forward to by all those technicians out there who can weave a lucid techscript based upon a given theme. A tech savvy theme is what you all need to get your minds rattling with thoughts and pen them onto the paper. The themes for this year were E-Commerce. The prize winning articles are then published in the CSI-VESIT Annual magazine: Interface, the Bi annual Newsletter Random Thoughts as also the E newsletter: Nexus.</item>
+        <item>Winners are: </item>
+        <item>TEs:\n\t1.\tSriram V(D13)\n\t2.\tSteffi D(D11)\n\t3.\tGaurav K(D15)\n\nSEs:\n\t1.\tSalil K(D7A)\n\t2.\tSakshi G(D7A)\n\t3.\tNeha P(D10)\n\n</item>
+    </string-array>
+    <string-array name="TPP">
+        <item>TPP</item>
+        <item>CSI -VESIT conducts Technical Paper Presentation Event for the second and third year members.</item>
+        <item>Winners are: </item>
+        <item>SEs:\n\t1.\tMonica (D9)\n\t\tRoshni (D9)\n\t\tShivani (D9)\n2.\tEkta (D7B)\n\t\tPayal (D7B)\n\t\tPratiksha (D7B)\n\nTEs:\n\t1.\tAmit (D12)\n\t\tPranav (D15)\n\tSteffi (D11)\n\t2.\tAmrata (D15)\n\t\tKhusboo (D15)\n\t\tMohit (D15)</item>
+    </string-array>
+    <string-array name="OpenSoftware">
+        <item>Open Software!</item>
+        <item>One of the most awaited events of the year - Open Software. We provide a platform to exhibit your creativity and constructive contribution to the technical society. You are rewarded based on the usefulness of the application and creativity exhibited. Get ready to release the aura of your creativity!</item>
+        <item>Winners are: </item>
+        <item>Aakash Mishra(D10)\nRitesh V(D12)\nMohit M(D12)\nVishal A(D15)\nManish Ahuja(D15)</item>
+    </string-array>
+    <string-array name="UltimateCoder">
+        <item>Ultimate Coder!</item>
+        <item>A Complete Proramming related event, where the C++ and Java Coding skills of the participants is tested along with time constraints! So, Are you the Ultimate Coder?</item>
+        <item>Winners are: </item>
+        <item>1.\tBhavesh B (D7A)\n\tRavi B (D7A)\n2.\tRahul R (D7B)\n\tYash T (D7B)\n3.\tEshwar N (D7A)\n\tPankaj B (D7A)\n</item>
+    </string-array>
+    <string-array name="cricOmania">
+        <item>Cric-O-mania!</item>
+        <item>If you love cricket, this event is definitely for you! A Chance to create your own cricket team, with all your favourite players! Earn sponsors and more from One-on-One tasks, All this, at one of the most Happening Events of CSI-VESIT!</item>
+        <item>Winners are: </item>
+        <item>1.\tVishal R(D9)\n\tAlok D(D9)\n\tGaurav M(D9)\n\tHardeep P(D9)\n2.\tJayesh A(D12)\n\tKetan K(D12)\n\tAkshay S(D12)\n\tAmmar A(D12)\n\tSiddarth M(D12)\n3. \tAmogh W(D14)\n\tNikit K(D14)\n\tSarita S(D14)\n\tSharad V(D14)</item>
+    </string-array>
+    <string-array name="IdiotBox">
+        <item>Idiot Box!</item>
+        <item>A totally insane event where the couch potato wins and the nerd loses! An Event inspired from your favourite TV Shows, A chance to to sit on the Hot-Seat!</item>
+        <item>Winners are: </item>
+        <item>1.\tPriyanka S(D7B)\n\tRiya S(D7B)\n\tSrinivas S(D7B)\n\tUsha S(D7B)\n2.\tKaran M(D14)\n\tMitesh O(D14)\n\tMohit K(D14)\n\tSiddhant S(D14)\n\tMohit T(D14)\n3.\tBhavita T(D15)\n\tKaran S(D15)\n\tSaurabh R(D15)\n\tSmit S(D15)</item>
+    </string-array>
+    <string-array name="VSM">
+        <item>VSM!</item>
+        <item>Want to make some Money?, try your luck!\nTrade online with virtual money!\nThe trader with the highest net worth wins.\nTrust your instincts, be the bull and conquer the bear!</item>
+        <item>Winners are: </item>
+        <item>1. Gaurav Taneja(D17)\n2. Govinda Hinduja(D9)\n3. Ammar A(D11)</item>
+    </string-array>
+    <string-array name="CashIn">
+        <item>Cash-in!</item>
+        <item>A fun-filled Event where luck and money are synonymous! Taking the risk is all that matters in this crazy event. If you thinkyou can win it, think again! You might just run out of luck.</item>
+        <item>Winners are: </item>
+        <item>1.\tKinjal P(D12)\n\tOmkar S(D12)\n\tVishal K(D12)\n2.\tKunal K(D9)\n\tSanket S(D9)\n\tVishal R(D9)\n3.\tNaresh B(D11)\n\tSagar B(D11)\n\tShailesh J(D11)</item>
+    </string-array>
+    <string-array name="ExplorationUnravlled">
+        <item>Exploration Unravelled!</item>
+        <item>Does the thought of racing around in your own wagon enthrall you? CSI-VESIT presents for all its speedy SE and TE members, the mega event, EXPLORATION UNRAVELLED. Keep your bag packs ready and fuel up your tanks! Loads of twists await you! Its where CSI Wireless Elims made its debut! Participation is in teams of 4. Its not how far you go. But what happens along the way!</item>
+        <item>Winners are: </item>
+        <item>1.\tMainsh(D7A)\n\tYugal(D7A)\n\tAakash(D7A)\n\tNeelima(D7A)\n2.\tSarvesh(D6)\n\tVirag(D6)\n\tShubham(D6)\n\tSaurabh(D6)\n3.\tKrishna(D10)\n\tSagar(D10)\n\tDarshil(D10)\n\tJayesh(D10)</item>
+    </string-array>
+    <string-array name="SymposiumImpact">
+        <item>Impact 13</item>
+        <item>After a plethora of fun-filled events and innovative workshops throughout the year, CSI-VESIT is proud to inform the grandest event of them all&#8230; the annual symposium IMPACT! Felicitation at our symposium is what all the winners of our various events look forward to, with some awesome prizes to be distributed! IMPACT will also have an interactive session with a distinguished guest speaker based on our theme, which will be followed by refreshments. And thats not all, every attending member will receive a myriad of cool gifts and memorabilia. So, hurry up to confirm your seat. Because CSI is ready to make an IMPACT on your minds !</item>
+    </string-array>
+    <string-array name="EthicalHacking">
+        <item>Ethical Hacking!</item>
+        <item>Ethical Hacking workshop teaches you how to protect yourself from various computer attack. It briefs you broadly about computer forensics and hacking tools</item>
+    </string-array>
+    <string-array name="PCAssembly">
+        <item>PC Assembly!</item>
+        <item>CSI-VESIT is glad to announce for all its SE members a workshop on PC Assembly. So get ready to explore the insides of the cpu and learn how different components and pieces are put together to form what we call, a computer.The workshop includes, demonstrations on how to put together a cpu, ms windows 7, ubuntu installations and study of bios. Know the intellect behind one of mans greatest invention.</item>
+    </string-array>
+    <string-array name="SwishMax">
+        <item>SwishMax!</item>
+        <item>This workshop briefs you about effective animation tools present in Swishmax Software</item>
+    </string-array>
+    <string-array name="Flash">
+        <item>Flash Workshop!</item>
+        <item>This workshop briefs you about various tools in Macromedia Flash which helps you in creaing new animations, flash games using action scripting and loads more! So get ready to get animated!</item>
+    </string-array>
+    <string-array name="IITWorkshop">
+        <item>IIT Workshop!</item>
+        <item>CSI-VESIT in collabration with IIT-B holds IIT-B certified Workshops exclusively for SEs. For ETRX, EXTC and INSTRU we have SCILAB- Easily the most popular software with the Electronics and Instrumentation professionals!! And for CMPN and IT we have PHP- The most used scripting language in the world!! CSI-VESIT is the only society in VESIT to offer IIT-B certified workshops in our own campus! So dont miss out this amazing opportunity.</item>
+    </string-array>
+    <string-array name="DotNetWorkshop">
+        <item>.NET Workshop!</item>
+        <item>.NET workshop briefs you about the Microsofts VB.NET and C#.NET, its uses, advantages and applications</item>
+    </string-array>
+    <string-array name="VegasPro">
+        <item>Vegas Pro WorkShop!</item>
+        <item>The first workshop, this semester for the TEs- Vegas Pro!! Vegas Pro is a software which makes importing and editing movies, images and music, very easy. Whether you are a beginner or an experienced film maker, Vegas Pro is the solution for you.</item>
+    </string-array>
+    <string-array name="IV">
+        <item>Udaipur &amp; Mount Abu!</item>
+        <item>CSI VESIT had great fun in managing a Mesmerising Industrial Visit to Mount Abu and Udaipur. It was scheduled in the last week of December, 2013, to be a perfect choice to de-stress yourselves, after the University Exams, along with gaining valuable industry experience.</item>
+    </string-array>
+    <string-array name="Python">
+        <item>Python Workshop!</item>
+        <item>This workshop is hands-on learning experience on 1 of the most used programming languages: Python! Python has its roots in broad fields such as robotics, Gaming, Linux Libraries and much more!</item>
+    </string-array>
+
+    <string name="title_activity_about_csi">About CSI:</string>
+    <string name="app_description">Get closer to your own CSI-VESIT family!</string>
+    <string name="title_activity_event_reg">EventRegActivity</string>
+    <string name="title_activity_rssfeeds_disp">CSI VESIT News!</string>
+
+</resources>

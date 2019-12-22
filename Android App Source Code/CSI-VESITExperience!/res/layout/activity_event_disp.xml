@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewEventDisp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EventDispActivity" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewAbtEvent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:fadeScrollbars="true"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+        
+        <View android:id="@+id/seperator1" 
+            android:layout_width="fill_parent"
+    		android:layout_height="2dp"
+    		android:background="@android:color/white"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/textViewWinnerCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:textStyle="bold"
+			android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <View android:id="@+id/seperator2" 
+            android:layout_width="fill_parent"
+    		android:layout_height="2dp"
+    		android:background="@android:color/white"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/textViewWinnersName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <View android:id="@+id/seperator3" 
+            android:layout_width="fill_parent"
+    		android:layout_height="2dp"
+    		android:background="@android:color/white"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/BtnImgGallery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:textColor="#000080"
+            android:textStyle="bold"
+            android:text="Photo Gallery!" />
+        
+        <TableLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:id="@+id/btnRegNWE"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <Button 
+                android:id="@+id/btnEventReg"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:text="Regiter for Event"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/article_writing_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnWE"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Wireless Elims"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/csi_jc_event_btn"
+                android:textStyle="bold"
+                />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

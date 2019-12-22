@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CreditsActivity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        
+       <TextView android:id="@+id/txtViewAbtApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wireless Elims(v1.1)\nFor Queries/suggestions: csivesittechsupport@gmail.com"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center" />
+       
+       <View android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="@android:color/white"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp" />
+    
+    <TextView android:id="@+id/txtViewAppCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appCredits"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    
+    <View android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="@android:color/white"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp" />
+    
+    <TextView android:id="@+id/txtViewWebSiteCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/websiteCredits"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    
+    <View android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="@android:color/white"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp" />
+    
+    <Button android:id="@+id/btnExit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Exit" />
+    
+   	</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/SplashLayout"
+    android:orientation="vertical"
+    tools:context=".SplashActivity" >
+
+    <ImageView
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:id="@+id/SplashImageView"
+        android:layout_gravity="center"        
+        android:src="@drawable/motto_bg"
+        android:contentDescription="CSI Motto"
+        />
+
+</LinearLayout>

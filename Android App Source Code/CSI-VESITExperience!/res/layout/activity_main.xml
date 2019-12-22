@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+    
+    <!-- android:background="#0000CD" --> 
+    
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6495ED" >
+        
+        <TableRow
+            android:id="@+id/TR1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnImpact"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_span="2"
+            	android:text="Impact 13"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/impact_13_btn"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/TR2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnIV"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_span="2"
+            	android:text="IV"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/iv_btn2"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/TR3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnCSIVESITNewsRSS"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_span="2"
+            	android:text="News!"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/news_btn"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent" >
+            <TextView 
+                android:id="@+id/txtViewYearTitle" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SEs only .."
+                android:textColor="#32127A"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow 
+            android:layout_width="fill_parent" >
+            <View
+    			android:layout_width="fill_parent"
+    			android:layout_height="5dp"
+    			android:layout_marginBottom="10dp"
+    			android:layout_span="2"
+    			android:background="#FFE5B4"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/SETR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnPCAssembly"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="PC Assembly"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/pc_assembly_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnEthicalHackin"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Ethical\nHacking"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/eh_btn"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/SETR2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnFlashWorkshop"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Flash\nWorkshop"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/flash_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnSwishMax"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="SwishMax"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/swishmax_btn"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/SETR3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnHiddenCipher"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Hidden\nCipher"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/hidden_cipher_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnUltimateCoder"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Ultimate\nCoder"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/ultimate_coder_btn"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/SETR4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnIITWorkShop"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="IIT\nWorkshops"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/iitb_btn"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        
+<!-- ******************************************************************************************************************** -->
+        
+        <TableRow 
+            android:layout_width="fill_parent" >
+            <TextView  
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TEs only .."
+                android:textColor="#32127A"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow 
+            android:id="@+id/Seperator"
+            android:layout_width="fill_parent" >
+            <View
+    			android:layout_width="fill_parent"
+    			android:layout_height="5dp"
+    			android:layout_marginBottom="10dp"
+    			android:layout_span="2"
+    			android:background="#FFE5B4"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TETR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/BtnCodeBreaker"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/code_breaker_btn2"
+                android:text="Code\nBreaker"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/BtnCompoNect"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/componect_btn"
+                android:text="Comp-o-Nect"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/TETR2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnVegasPro"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/vegas_pro_btn"
+                android:text="Vegas Pro"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnDotNetWorkshop"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/ms_dot_net_btn2"
+                android:text=".NET\nWorkShop"
+                android:textStyle="bold"
+                />
+        </TableRow>
+       
+<!-- ******************************************************************************************************************** -->
+
+        <TableRow 
+            android:layout_width="fill_parent" >
+            <TextView  
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SE + TE"
+                android:textColor="#32127A"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow 
+            android:layout_width="fill_parent" >
+            <View
+    			android:layout_width="fill_parent"
+    			android:layout_height="5dp"
+    			android:layout_marginBottom="10dp"
+    			android:layout_span="2"
+    			android:background="#FFE5B4"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/SETETR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/BtnCricOmania"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Cric-o-Mania!"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/cricomania_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/BtnIdiotBox"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/idiot_box_btn"
+                android:text="The\nIdiot Box"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/SETETR2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/BtnCashin"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Cash-In!"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/cashin_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnArticleWriting"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Article\nWriting"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/article_writing_btn2"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/SETETR3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/BtnTPP"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/tpp_btn"
+                android:text="TPP"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnOpenSoftware"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/open_sw_btn"
+                android:text="Open\nSoftware"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/SETETR4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/btnExplorationUnravelled"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:text="Exploration\nUnravelled!"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/csi_jc_event_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/btnPyWorkshop"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:text="Python!"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/py_btn"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+<!--  *********************************************************************************************************************** -->
+        
+        <TableRow 
+            android:layout_width="fill_parent" >
+            <TextView  
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SE + TE + BE"
+                android:textColor="#32127A"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow 
+            android:layout_width="fill_parent" >
+            <View
+    			android:layout_width="fill_parent"
+    			android:layout_height="5dp"
+    			android:layout_marginBottom="10dp"
+    			android:layout_span="2"
+    			android:background="#FFE5B4"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/SETEBETR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:id="@+id/BtnLanGamin"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="LAN\nGaming"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/lan_gaming_btn"
+                android:textStyle="bold"
+                />
+            <Button 
+                android:id="@+id/BtnVSM"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="18sp"
+                android:textColor="#32127A"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:drawableTop="@drawable/vsm_btn"
+                android:text="VSM"
+                android:textStyle="bold"
+                />
+        </TableRow>
+       
+<!-- ******************************************************************************************************************** -->
+    </TableLayout>
+
+</ScrollView>
