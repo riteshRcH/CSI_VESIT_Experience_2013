@@ -1,20 +1,20 @@
 # CSI VESIT Experience 2014
 
-CSI-VESIT Society App for its members gave them an opportunity to get to know about the schedule and event descriptions beforehand using RSS based notifications.
+Developed an android application for CSI VESIT, features include extensive feed parsing and caching, RSS notifications. It is being extensively used by CSI members to get information regarding day to day events, their schedule, descriptions & online registration.
 
-Register for Round 1 Wireless Elims (WiFi MCQ) to qualify for Ultimate Coder Event 
+## Register for Round 1 Wireless Elims (WiFi MCQ) to qualify for Ultimate Coder Event 
 
 ![Ultimate_Coder](https://raw.githubusercontent.com/riteshRcH/CSI_VESIT_Experience_2014/master/screenshots/Ultimate_Coder.png)
 
-Register for Round 1 Wireless Elims (WiFi MCQ) to qualify for CricOmania Event 
+## Register for Round 1 Wireless Elims (WiFi MCQ) to qualify for CricOmania Event 
 
 ![CricOmania](https://raw.githubusercontent.com/riteshRcH/CSI_VESIT_Experience_2014/master/screenshots/CricOmania.png)
 
-SplashScreen
+## SplashScreen
 
 ![SplashScreen](https://raw.githubusercontent.com/riteshRcH/CSI_VESIT_Experience_2014/master/screenshots/SplashScreen.png)
 
-Home Screen (FE=Fresher, SE=Sophomore, TE=Junior, BE=Senior)
+## Home Screen (FE=Fresher, SE=Sophomore, TE=Junior, BE=Senior)
 
 ![HomeScreen1](https://raw.githubusercontent.com/riteshRcH/CSI_VESIT_Experience_2014/master/screenshots/HomeScreen1.png)
 
