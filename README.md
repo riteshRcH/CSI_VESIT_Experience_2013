@@ -1,4 +1,4 @@
-# CSI VESIT Experience 2014
+# CSI VESIT Experience 2013
 
 Developed an android application for CSI VESIT, features include extensive feed parsing and caching, RSS notifications. It is being extensively used by CSI members to get information regarding day to day events, their schedule, descriptions & online registration.
 
